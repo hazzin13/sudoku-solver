@@ -26,7 +26,6 @@ fn main() {
     //     1, 0, 0, 0, 0, 0, 4, 0, 0, // nineth row
     // ]);
 
-    
     let grid = Grid::from([
         0, 0, 9, 0, 0, 1, 0, 7, 0, // first row
         0, 0, 0, 4, 0, 0, 0, 6, 0, // second row

@@ -1,7 +1,7 @@
 pub const SQUARE_SIZE: usize = 3;
 pub const GRID_SIZE: usize = SQUARE_SIZE * SQUARE_SIZE;
 
-#[derive(Debug, Copy, Clone)]
+#[derive(Debug, Copy, Clone, PartialEq)]
 pub struct Grid {
     cells: [u8; GRID_SIZE * GRID_SIZE],
 }
